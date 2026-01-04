@@ -1,0 +1,8 @@
+name = "iptv-portal"
+compatibility_date = "2024-01-01"
+
+# KV namespace binding for MAC address registry
+# You'll need to create this KV namespace in your Cloudflare dashboard
+[[kv_namespaces]]
+binding = "MAC_REGISTRY"
+id = "your-kv-namespace-id"
